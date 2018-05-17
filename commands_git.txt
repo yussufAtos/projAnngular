@@ -1,0 +1,18 @@
+Récupérer un repo distant :
+git clone https://github.com/khalidit/angular.git
+
+
+On se positionne sur le projet :
+cd angular
+
+// Tu fait ta vie avec le projet et ensuite :
+
+Si on ajoute un nouveau fichier :
+git add .
+
+Pour ajouter le fichier ou les fichiers précédemment créées au repo local :
+git commit -m "nomDeLaBranche : message"
+
+
+Pour pousser la dernière version locale vers le repo distant :
+git push origin nomDeLaBranche
